@@ -1,0 +1,5 @@
+Get-FileHash /etc/apt/sources.list | Format-List
+
+Algorithm : SHA256
+Hash      : 3CBCFDDEC145E3382D592266BE193E5BE53443138EE6AB6CA09FF20DF609E268
+Path      : /etc/apt/sources.list
