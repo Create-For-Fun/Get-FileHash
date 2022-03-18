@@ -1,0 +1,10 @@
+$stringAsStream = [System.IO.MemoryStream]::new()
+$writer = [System.IO.StreamWriter]::new($stringAsStream)
+$writer.write("Hello world")
+$writer.Flush()
+$stringAsStream.Position = 0
+Get-FileHash -InputStream $stringAsStream | Select-Object Hash
+
+Hash
+----
+64EC88CA00B268E5BA1A35678A1B5316D212F4F366B2477232534A8AECA37F3C
