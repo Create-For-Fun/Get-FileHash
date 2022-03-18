@@ -1,0 +1,4 @@
+Get-FileHash
+   [-Path] <String[]>
+   [[-Algorithm] <String>]
+   [<CommonParameters>]
