@@ -1,0 +1,4 @@
+Get-FileHash
+   [-InputStream] <Stream>
+   [[-Algorithm] <String>]
+   [<CommonParameters>]
